@@ -5,11 +5,11 @@
 
 from setuptools import setup, find_packages
 
-from jama.version import VERSION
+#from jama.version import VERSION
 
 setup(
     name = "python-jama",
-    version = VERSION,
+    version = '0.5',
     description="A Python wrapper for the Jama API",
     long_description=open('README.md').read(),
     author=['Brian Thorne', 'Phillip Dixon', 'Donovan Johnson'],
